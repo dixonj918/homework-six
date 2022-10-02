@@ -1,0 +1,541 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+.site-container {
+  max-width: 1280px;
+  height: 1500px;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: gill-sans;
+  src: url(../fonts/GillSans.ttc);
+}
+@font-face {
+  font-family: proxima;
+  src: url(../fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+@media only screen and (max-width: 830px) {
+  .tourWrapper {
+    width: 527px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .tourWrapper {
+    width: 236px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .wrapper {
+    width: 527px;
+    padding-bottom: 1050px;
+  }
+  .wrapper img {
+    margin-bottom: 25px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .textBlock {
+    width: 527px;
+  }
+}
+@media only screen and (max-width: 527px) {
+  .textBlock {
+    width: 236px;
+    padding-bottom: 500px;
+  }
+}
+nav {
+  max-width: 980px;
+  height: 92px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: solid 2px black;
+}
+nav .logo {
+  font-family: gill-sans;
+  font-size: 20px;
+}
+nav .links a {
+  padding-left: 20px;
+  padding-right: 2px;
+  font-family: gill-sans;
+  text-decoration: none;
+  color: black;
+}
+nav .links span {
+  color: #79ADDC;
+}
+
+.hero {
+  height: 200px;
+  max-width: 980px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-image: url(../images/tours-header.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hero .heroTours {
+  text-transform: uppercase;
+  font-family: proxima;
+  font-size: 60px;
+  color: white;
+}
+
+.tourWrapper {
+  max-width: 818px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.tourWrapper .tourPhotoWrapper {
+  width: 236px;
+  height: 304px;
+  background-color: gold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 55px;
+}
+.tourWrapper .tourPhotoWrapper h1 {
+  font-family: proxima;
+  color: white;
+  font-size: 60px;
+}
+.tourWrapper .tourPhotoWrapper .price {
+  margin-bottom: 57px;
+  font-family: proxima;
+  font-size: 30px;
+  color: white;
+}
+.tourWrapper .tourPhotoWrapper .learnMore {
+  width: 133px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #79ADDC;
+  border-radius: 20px;
+  padding: 10px 5px;
+}
+.tourWrapper .tourPhotoWrapper .learnMore a {
+  font-family: gill-sans;
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  height: 100px;
+  background-color: #79ADDC;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+footer .logo {
+  font-family: gill-sans;
+  color: white;
+  font-size: 20px;
+}
+footer .copyRight {
+  font-family: gill-sans;
+  color: white;
+  font-size: 12px;
+}
+footer .socialMedia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+footer .socialMedia img {
+  padding: 20px;
+}
+
+.heroTour-israel {
+  max-width: 981px;
+  height: 413px;
+  margin: 0 auto;
+  position: relative;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(86, 86, 118, 0.75)), to(rgba(86, 86, 118, 0.75))), url(../images/hero/tour-01.jpg);
+  background-image: linear-gradient(to right, rgba(86, 86, 118, 0.75), rgba(86, 86, 118, 0.75)), url(../images/hero/tour-01.jpg);
+  margin-bottom: 40px;
+}
+.heroTour-israel .tourTitle {
+  max-width: 687px;
+  height: 106px;
+  padding-left: 30px;
+  margin-top: 18px;
+}
+.heroTour-israel .tourTitle h1 {
+  color: white;
+  font-family: proxima;
+  font-size: 80px;
+}
+.heroTour-israel .tourPrice {
+  position: absolute;
+  bottom: 0;
+  right: 0px;
+  color: white;
+  font-size: proxima;
+  font-size: 30px;
+}
+
+.wrapper {
+  max-width: 981px;
+  height: 347px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 29px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.textBlock {
+  max-width: 981px;
+  height: 200px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.textBlock h1 {
+  width: 200px;
+  font-family: proxima;
+  color: black;
+  font-size: 60px;
+  border-bottom: solid 2px black;
+  text-align: left;
+  padding-left: 5px;
+}
+.textBlock p {
+  color: black;
+  text-align: left;
+  font-family: gill-sans;
+  font-size: 16px;
+}
+
+.bookNow {
+  width: 133px;
+  height: 40px;
+  background-color: #79ADDC;
+  margin: 0 auto;
+  padding: 10px 15px;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 100px;
+  color: white;
+  font-family: gill-sans;
+  font-size: 15px;
+}
+
+.heroTour-usa {
+  max-width: 981px;
+  height: 413px;
+  margin: 0 auto;
+  position: relative;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(86, 86, 118, 0.75)), to(rgba(86, 86, 118, 0.75))), url(../images/hero/usahero.jpg);
+  background-image: linear-gradient(to right, rgba(86, 86, 118, 0.75), rgba(86, 86, 118, 0.75)), url(../images/hero/usahero.jpg);
+  margin-bottom: 40px;
+}
+.heroTour-usa .tourTitle {
+  max-width: 687px;
+  height: 106px;
+  padding-left: 30px;
+  margin-top: 18px;
+}
+.heroTour-usa .tourTitle h1 {
+  color: white;
+  font-family: proxima;
+  font-size: 80px;
+}
+.heroTour-usa .tourPrice {
+  position: absolute;
+  bottom: 0;
+  right: 0px;
+  color: white;
+  font-size: proxima;
+  font-size: 30px;
+}
+
+.heroTour-aus {
+  max-width: 981px;
+  height: 413px;
+  margin: 0 auto;
+  position: relative;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(86, 86, 118, 0.75)), to(rgba(86, 86, 118, 0.75))), url(../images/hero/aushero.jpg);
+  background-image: linear-gradient(to right, rgba(86, 86, 118, 0.75), rgba(86, 86, 118, 0.75)), url(../images/hero/aushero.jpg);
+  margin-bottom: 40px;
+}
+.heroTour-aus .tourTitle {
+  max-width: 687px;
+  height: 106px;
+  padding-left: 30px;
+  margin-top: 18px;
+}
+.heroTour-aus .tourTitle h1 {
+  color: white;
+  font-family: proxima;
+  font-size: 80px;
+}
+.heroTour-aus .tourPrice {
+  position: absolute;
+  bottom: 0;
+  right: 0px;
+  color: white;
+  font-size: proxima;
+  font-size: 30px;
+}
+
+.heroTour-newzea {
+  max-width: 981px;
+  height: 413px;
+  margin: 0 auto;
+  position: relative;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(86, 86, 118, 0.75)), to(rgba(86, 86, 118, 0.75))), url(../images/hero/newzeahero.jpg);
+  background-image: linear-gradient(to right, rgba(86, 86, 118, 0.75), rgba(86, 86, 118, 0.75)), url(../images/hero/newzeahero.jpg);
+  margin-bottom: 40px;
+}
+.heroTour-newzea .tourTitle {
+  max-width: 687px;
+  height: 106px;
+  padding-left: 30px;
+  margin-top: 18px;
+}
+.heroTour-newzea .tourTitle h1 {
+  color: white;
+  font-family: proxima;
+  font-size: 80px;
+}
+.heroTour-newzea .tourPrice {
+  position: absolute;
+  bottom: 0;
+  right: 0px;
+  color: white;
+  font-size: proxima;
+  font-size: 30px;
+}
+
+.heroTour-france {
+  max-width: 981px;
+  height: 413px;
+  margin: 0 auto;
+  position: relative;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(86, 86, 118, 0.75)), to(rgba(86, 86, 118, 0.75))), url(../images/hero/francehero.jpg);
+  background-image: linear-gradient(to right, rgba(86, 86, 118, 0.75), rgba(86, 86, 118, 0.75)), url(../images/hero/francehero.jpg);
+  margin-bottom: 40px;
+}
+.heroTour-france .tourTitle {
+  max-width: 687px;
+  height: 106px;
+  padding-left: 30px;
+  margin-top: 18px;
+}
+.heroTour-france .tourTitle h1 {
+  color: white;
+  font-family: proxima;
+  font-size: 80px;
+}
+.heroTour-france .tourPrice {
+  position: absolute;
+  bottom: 0;
+  right: 0px;
+  color: white;
+  font-size: proxima;
+  font-size: 30px;
+}
+
+.heroTour-egypt {
+  max-width: 981px;
+  height: 413px;
+  margin: 0 auto;
+  position: relative;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(86, 86, 118, 0.75)), to(rgba(86, 86, 118, 0.75))), url(../images/hero/egypthero.jpg);
+  background-image: linear-gradient(to right, rgba(86, 86, 118, 0.75), rgba(86, 86, 118, 0.75)), url(../images/hero/egypthero.jpg);
+  margin-bottom: 40px;
+}
+.heroTour-egypt .tourTitle {
+  max-width: 687px;
+  height: 106px;
+  padding-left: 30px;
+  margin-top: 18px;
+}
+.heroTour-egypt .tourTitle h1 {
+  color: white;
+  font-family: proxima;
+  font-size: 80px;
+}
+.heroTour-egypt .tourPrice {
+  position: absolute;
+  bottom: 0;
+  right: 0px;
+  color: white;
+  font-size: proxima;
+  font-size: 30px;
+}
+
+.heroTour-japan {
+  max-width: 981px;
+  height: 413px;
+  margin: 0 auto;
+  position: relative;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(86, 86, 118, 0.75)), to(rgba(86, 86, 118, 0.75))), url(../images/hero/japanhero.jpg);
+  background-image: linear-gradient(to right, rgba(86, 86, 118, 0.75), rgba(86, 86, 118, 0.75)), url(../images/hero/japanhero.jpg);
+  margin-bottom: 40px;
+}
+.heroTour-japan .tourTitle {
+  max-width: 687px;
+  height: 106px;
+  padding-left: 30px;
+  margin-top: 18px;
+}
+.heroTour-japan .tourTitle h1 {
+  color: white;
+  font-family: proxima;
+  font-size: 80px;
+}
+.heroTour-japan .tourPrice {
+  position: absolute;
+  bottom: 0;
+  right: 0px;
+  color: white;
+  font-size: proxima;
+  font-size: 30px;
+}
+
+.heroTour-canada {
+  max-width: 981px;
+  height: 413px;
+  margin: 0 auto;
+  position: relative;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(86, 86, 118, 0.75)), to(rgba(86, 86, 118, 0.75))), url(../images/hero/canhero.jpg);
+  background-image: linear-gradient(to right, rgba(86, 86, 118, 0.75), rgba(86, 86, 118, 0.75)), url(../images/hero/canhero.jpg);
+  margin-bottom: 40px;
+}
+.heroTour-canada .tourTitle {
+  max-width: 687px;
+  height: 106px;
+  padding-left: 30px;
+  margin-top: 18px;
+}
+.heroTour-canada .tourTitle h1 {
+  color: white;
+  font-family: proxima;
+  font-size: 80px;
+}
+.heroTour-canada .tourPrice {
+  position: absolute;
+  bottom: 0;
+  right: 0px;
+  color: white;
+  font-size: proxima;
+  font-size: 30px;
+}
+
+.heroTour-uae {
+  max-width: 981px;
+  height: 413px;
+  margin: 0 auto;
+  position: relative;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(86, 86, 118, 0.75)), to(rgba(86, 86, 118, 0.75))), url(../images/hero/uaehero.jpg);
+  background-image: linear-gradient(to right, rgba(86, 86, 118, 0.75), rgba(86, 86, 118, 0.75)), url(../images/hero/uaehero.jpg);
+  margin-bottom: 40px;
+}
+.heroTour-uae .tourTitle {
+  max-width: 687px;
+  height: 106px;
+  padding-left: 30px;
+  margin-top: 18px;
+}
+.heroTour-uae .tourTitle h1 {
+  color: white;
+  font-family: proxima;
+  font-size: 80px;
+}
+.heroTour-uae .tourPrice {
+  position: absolute;
+  bottom: 0;
+  right: 0px;
+  color: white;
+  font-size: proxima;
+  font-size: 30px;
+}

@@ -1,0 +1,27 @@
+nav{
+    max-width: 980px;
+    height: 92px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 2px black;
+
+    .logo{
+        font-family: gill-sans;
+        font-size: 20px;
+    }
+
+    .links{
+       a{
+        padding-left: 20px;
+        padding-right: 2px;
+        font-family:gill-sans;
+        text-decoration: none;
+        color: black;
+       }
+       span{
+        color: #79ADDC;
+       }
+    }
+}

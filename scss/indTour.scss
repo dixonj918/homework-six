@@ -1,0 +1,387 @@
+.heroTour-israel{
+    max-width: 981px;
+    height: 413px;
+    // background-color: green;
+    margin: 0 auto;
+    position: relative;
+    background-image: linear-gradient(
+        to right,
+        rgba(86, 86, 118, 0.75),
+        rgba(86, 86, 118, 0.75)
+      ),url(../images/hero/tour-01.jpg);
+      margin-bottom: 40px;
+
+
+    .tourTitle{
+        max-width: 687px;
+        height: 106px;
+        // background-color: yellow;
+        padding-left: 30px;
+        margin-top: 18px;
+
+        h1{
+            color: white;
+            font-family: proxima;
+            font-size: 80px;
+        }
+    }
+    .tourPrice{
+        position: absolute;
+        bottom: 0;
+        right: 0px;
+        color: white;
+        font-size: proxima;
+        font-size: 30px;
+    }
+}
+
+.wrapper{
+    max-width: 981px;
+    height: 347px;
+    // background-color: azure;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 29px;
+    flex-wrap: wrap;
+}
+
+.textBlock{
+    max-width: 981px;
+    height: 200px;
+    // background-color: coral;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+    h1{
+        width: 200px;
+        font-family: proxima;
+        color: black;
+        font-size: 60px;
+        border-bottom: solid 2px black;
+        text-align: left;
+        padding-left: 5px;
+    }
+
+    p{
+        color: black;
+        text-align: left;
+        font-family: gill-sans;
+        font-size: 16px;
+
+    }
+}
+
+.bookNow{
+    width:133px;
+    height: 40px;
+    background-color: #79ADDC;
+    margin: 0 auto;
+    padding: 10px 15px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    color: white;
+    font-family: gill-sans;
+    font-size: 15px;
+
+}
+
+.heroTour-usa{
+    max-width: 981px;
+    height: 413px;
+    // background-color: green;
+    margin: 0 auto;
+    position: relative;
+    background-image: linear-gradient(
+        to right,
+        rgba(86, 86, 118, 0.75),
+        rgba(86, 86, 118, 0.75)
+      ),url(../images/hero/usahero.jpg);
+      margin-bottom: 40px;
+
+
+    .tourTitle{
+        max-width: 687px;
+        height: 106px;
+        // background-color: yellow;
+        padding-left: 30px;
+        margin-top: 18px;
+
+        h1{
+            color: white;
+            font-family: proxima;
+            font-size: 80px;
+        }
+    }
+    .tourPrice{
+        position: absolute;
+        bottom: 0;
+        right: 0px;
+        color: white;
+        font-size: proxima;
+        font-size: 30px;
+    }
+}
+
+.heroTour-aus{
+    max-width: 981px;
+    height: 413px;
+    // background-color: green;
+    margin: 0 auto;
+    position: relative;
+    background-image: linear-gradient(
+        to right,
+        rgba(86, 86, 118, 0.75),
+        rgba(86, 86, 118, 0.75)
+      ),url(../images/hero/aushero.jpg);
+      margin-bottom: 40px;
+
+
+    .tourTitle{
+        max-width: 687px;
+        height: 106px;
+        // background-color: yellow;
+        padding-left: 30px;
+        margin-top: 18px;
+
+        h1{
+            color: white;
+            font-family: proxima;
+            font-size: 80px;
+        }
+    }
+    .tourPrice{
+        position: absolute;
+        bottom: 0;
+        right: 0px;
+        color: white;
+        font-size: proxima;
+        font-size: 30px;
+    }
+}
+
+.heroTour-newzea{
+    max-width: 981px;
+    height: 413px;
+    // background-color: green;
+    margin: 0 auto;
+    position: relative;
+    background-image: linear-gradient(
+        to right,
+        rgba(86, 86, 118, 0.75),
+        rgba(86, 86, 118, 0.75)
+      ),url(../images/hero/newzeahero.jpg);
+      margin-bottom: 40px;
+
+
+    .tourTitle{
+        max-width: 687px;
+        height: 106px;
+        // background-color: yellow;
+        padding-left: 30px;
+        margin-top: 18px;
+
+        h1{
+            color: white;
+            font-family: proxima;
+            font-size: 80px;
+        }
+    }
+    .tourPrice{
+        position: absolute;
+        bottom: 0;
+        right: 0px;
+        color: white;
+        font-size: proxima;
+        font-size: 30px;
+    }
+}
+
+.heroTour-france{
+    max-width: 981px;
+    height: 413px;
+    // background-color: green;
+    margin: 0 auto;
+    position: relative;
+    background-image: linear-gradient(
+        to right,
+        rgba(86, 86, 118, 0.75),
+        rgba(86, 86, 118, 0.75)
+      ),url(../images/hero/francehero.jpg);
+      margin-bottom: 40px;
+
+
+    .tourTitle{
+        max-width: 687px;
+        height: 106px;
+        // background-color: yellow;
+        padding-left: 30px;
+        margin-top: 18px;
+
+        h1{
+            color: white;
+            font-family: proxima;
+            font-size: 80px;
+        }
+    }
+    .tourPrice{
+        position: absolute;
+        bottom: 0;
+        right: 0px;
+        color: white;
+        font-size: proxima;
+        font-size: 30px;
+    }
+}
+
+.heroTour-egypt{
+    max-width: 981px;
+    height: 413px;
+    // background-color: green;
+    margin: 0 auto;
+    position: relative;
+    background-image: linear-gradient(
+        to right,
+        rgba(86, 86, 118, 0.75),
+        rgba(86, 86, 118, 0.75)
+      ),url(../images/hero/egypthero.jpg);
+      margin-bottom: 40px;
+
+
+    .tourTitle{
+        max-width: 687px;
+        height: 106px;
+        // background-color: yellow;
+        padding-left: 30px;
+        margin-top: 18px;
+
+        h1{
+            color: white;
+            font-family: proxima;
+            font-size: 80px;
+        }
+    }
+    .tourPrice{
+        position: absolute;
+        bottom: 0;
+        right: 0px;
+        color: white;
+        font-size: proxima;
+        font-size: 30px;
+    }
+}
+
+.heroTour-japan{
+    max-width: 981px;
+    height: 413px;
+    // background-color: green;
+    margin: 0 auto;
+    position: relative;
+    background-image: linear-gradient(
+        to right,
+        rgba(86, 86, 118, 0.75),
+        rgba(86, 86, 118, 0.75)
+      ),url(../images/hero/japanhero.jpg);
+      margin-bottom: 40px;
+
+
+    .tourTitle{
+        max-width: 687px;
+        height: 106px;
+        // background-color: yellow;
+        padding-left: 30px;
+        margin-top: 18px;
+
+        h1{
+            color: white;
+            font-family: proxima;
+            font-size: 80px;
+        }
+    }
+    .tourPrice{
+        position: absolute;
+        bottom: 0;
+        right: 0px;
+        color: white;
+        font-size: proxima;
+        font-size: 30px;
+    }
+}
+
+.heroTour-canada{
+    max-width: 981px;
+    height: 413px;
+    // background-color: green;
+    margin: 0 auto;
+    position: relative;
+    background-image: linear-gradient(
+        to right,
+        rgba(86, 86, 118, 0.75),
+        rgba(86, 86, 118, 0.75)
+      ),url(../images/hero/canhero.jpg);
+      margin-bottom: 40px;
+
+
+    .tourTitle{
+        max-width: 687px;
+        height: 106px;
+        // background-color: yellow;
+        padding-left: 30px;
+        margin-top: 18px;
+
+        h1{
+            color: white;
+            font-family: proxima;
+            font-size: 80px;
+        }
+    }
+    .tourPrice{
+        position: absolute;
+        bottom: 0;
+        right: 0px;
+        color: white;
+        font-size: proxima;
+        font-size: 30px;
+    }
+}
+
+.heroTour-uae{
+    max-width: 981px;
+    height: 413px;
+    // background-color: green;
+    margin: 0 auto;
+    position: relative;
+    background-image: linear-gradient(
+        to right,
+        rgba(86, 86, 118, 0.75),
+        rgba(86, 86, 118, 0.75)
+      ),url(../images/hero/uaehero.jpg);
+      margin-bottom: 40px;
+
+
+    .tourTitle{
+        max-width: 687px;
+        height: 106px;
+        // background-color: yellow;
+        padding-left: 30px;
+        margin-top: 18px;
+
+        h1{
+            color: white;
+            font-family: proxima;
+            font-size: 80px;
+        }
+    }
+    .tourPrice{
+        position: absolute;
+        bottom: 0;
+        right: 0px;
+        color: white;
+        font-size: proxima;
+        font-size: 30px;
+    }
+}
